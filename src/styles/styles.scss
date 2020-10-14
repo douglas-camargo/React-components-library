@@ -1,0 +1,17 @@
+@import "~ed-grid";
+@import "~edteam-style-guides/edteam-style-guides";
+
+.alinearImagen{
+    object-fit: cover;
+    object-position: center;
+}
+
+.animacion{
+    transition: width 0.2s;
+
+    &:hover{
+        box-shadow: 3px 4px 15px 0px #aaaaaaf1 !important;
+        width: 101%;
+      }
+}
+
