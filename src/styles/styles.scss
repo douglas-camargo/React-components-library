@@ -7,11 +7,26 @@
 }
 
 .tamañoiconopdf{
-    width:10%;
+    width:8%;
+    top:4px;
+
+    @media screen  and (min-width: 500px) {
+        width:6%;
+    }
+
+    @media screen  and (min-width: 640px) {
+        width:10%;
+    }
 }
+
+
 
 .colorficha{
     color:#FF2419
+}
+
+.colorprecio{
+    color:#006DC6;
 }
 
 .animacion{
@@ -22,4 +37,17 @@
         width: 101%;
       }
 }
+
+
+// .cortartexto{
+//     width: 230px;
+//     white-space: pre-wrap;
+//     text-overflow: ellipsis;
+//     overflow: hidden;
+// }
+
+.alineacionDeAltura{
+    height: 44px;
+}
+
 
